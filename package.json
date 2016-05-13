@@ -1,0 +1,19 @@
+{
+  "name": "selenium-webdriverio",
+  "version": "1.0.0",
+  "description": "base selenium set up with webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joe-glasgow/selenium-webdriverio.git"
+  },
+  "author": "Joseph Morrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-glasgow/selenium-webdriverio/issues"
+  },
+  "homepage": "https://github.com/joe-glasgow/selenium-webdriverio#readme"
+}
