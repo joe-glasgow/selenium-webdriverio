@@ -1,4 +1,4 @@
-var env = GLOBAL.stvEnvironment || 'stv.tv';
+var env = 'stv.tv';
 
 var sites =  [
         "player." + env,

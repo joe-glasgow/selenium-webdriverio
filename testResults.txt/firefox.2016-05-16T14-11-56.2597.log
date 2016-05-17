@@ -1,0 +1,22 @@
+
+[1;33m=======================================================================================[0m
+Selenium 2.0 / webdriver protocol bindings implementation with helper commands in nodejs.
+For a complete list of commands, visit [1;32mhttp://webdriver.io/docs.html[0m.
+[1;33m=======================================================================================[0m
+
+[15:11:56]  COMMAND	POST 	 "/wd/hub/session"
+[15:11:56]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.0.7","name":"webdriverio"}}}
+[15:12:00]  INFO	SET SESSION ID 926d318a-bb18-4f83-953b-c6d2c5229be8
+[15:12:00]  RESULT		{"applicationCacheEnabled":true,"rotatable":false,"handlesAlerts":true,"databaseEnabled":true,"version":"45.0.2","platform":"MAC","nativeEvents":false,"acceptSslCerts":true,"webdriver.remote.sessionid":"926d318a-bb18-4f83-953b-c6d2c5229be8","webStorageEnabled":true,"locationContextEnabled":true,"browserName":"firefox","takesScreenshot":true,"javascriptEnabled":true,"cssSelectorsEnabled":true}
+[15:12:00]  COMMAND	POST 	 "/wd/hub/session/926d318a-bb18-4f83-953b-c6d2c5229be8/url"
+[15:12:00]  DATA		{"url":"http://player.stv.tv"}
+[15:12:03]  RESULT		null
+[15:12:07]  COMMAND	POST 	 "/wd/hub/session/926d318a-bb18-4f83-953b-c6d2c5229be8/element"
+[15:12:07]  DATA		{"using":"css selector","value":"body"}
+[15:12:07]  RESULT		{"ELEMENT":"0"}
+[15:12:07]  COMMAND	POST 	 "/wd/hub/session/926d318a-bb18-4f83-953b-c6d2c5229be8/element/0/click"
+[15:12:07]  DATA		{}
+[15:12:07]  RESULT		null
+[15:12:07]  COMMAND	POST 	 "/wd/hub/session/926d318a-bb18-4f83-953b-c6d2c5229be8/url"
+[15:12:07]  DATA		{"url":"http://shows.stv.tv"}
+[15:12:11]  RESULT		null

@@ -1,0 +1,42 @@
+
+[1;33m=======================================================================================[0m
+Selenium 2.0 / webdriver protocol bindings implementation with helper commands in nodejs.
+For a complete list of commands, visit [1;32mhttp://webdriver.io/docs.html[0m.
+[1;33m=======================================================================================[0m
+
+[14:46:11]  COMMAND	POST 	 "/wd/hub/session"
+[14:46:11]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.0.7","name":"webdriverio"}}}
+[14:46:27]  INFO	SET SESSION ID bed940ec-057d-46b0-8cee-6e1af0af0d95
+[14:46:27]  RESULT		{"applicationCacheEnabled":false,"rotatable":false,"mobileEmulationEnabled":false,"chrome":{"chromedriverVersion":"2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)","userDataDir":"/var/folders/yx/gp_ytz654rjdg6jf_c6kj4r00000gn/T/.org.chromium.Chromium.xv98KN"},"takesHeapSnapshot":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"version":"50.0.2661.102","platform":"MAC","browserConnectionEnabled":false,"nativeEvents":true,"acceptSslCerts":true,"webdriver.remote.sessionid":"bed940ec-057d-46b0-8cee-6e1af0af0d95","locationContextEnabled":true,"webStorageEnabled":true,"browserName":"chrome","takesScreenshot":true,"javascriptEnabled":true,"cssSelectorsEnabled":true}
+[14:47:10]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/url"
+[14:47:10]  DATA		{"url":"http://player.stv.jmor"}
+[14:47:24]  RESULT		null
+[14:47:29]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/element"
+[14:47:29]  DATA		{"using":"css selector","value":"[data-modal-id=\"registration-sign-in\"]"}
+[14:47:39]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:39]  DATA		{"using":"id","value":"sign-in-id"}
+[14:47:39]  RESULT		[]
+[14:47:39]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:39]  DATA		{"using":"id","value":"sign-in-password"}
+[14:47:39]  RESULT		[]
+[14:47:39]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:39]  DATA		{"using":"css selector","value":"#registration-sign-in .gigya-input-submit"}
+[14:47:39]  RESULT		[]
+[14:47:39]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:39]  DATA		{"using":"css selector","value":"#registration-sign-in [data-close-registration]"}
+[14:47:39]  RESULT		[]
+[14:47:39]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/element"
+[14:47:39]  DATA		{"using":"css selector","value":"#registration-sign-in [data-close-registration]"}
+[14:47:41]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/element"
+[14:47:41]  DATA		{"using":"css selector","value":"[data-modal-id=\"registration-sign-in\"]"}
+[14:47:42]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:42]  DATA		{"using":"css selector","value":"#registration-sign-in #sign-in-id"}
+[14:47:42]  RESULT		[]
+[14:47:42]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/elements"
+[14:47:42]  DATA		{"using":"css selector","value":"#registration-sign-in #sign-in-id"}
+[14:47:42]  RESULT		[]
+[14:47:42]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/element"
+[14:47:42]  DATA		{"using":"id","value":"registration-sign-out-nav"}
+[14:47:43]  COMMAND	POST 	 "/wd/hub/session/bed940ec-057d-46b0-8cee-6e1af0af0d95/url"
+[14:47:43]  DATA		{"url":"http://shows.stv.jmor"}
+[14:47:45]  RESULT		null

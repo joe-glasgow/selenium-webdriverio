@@ -2,7 +2,7 @@ var exec = require('child_process').exec;
 
 exports.config = {
     updateJob: false, // will get overwritten
-    specs : ['./*-spec.js'],
+    specs : [process.cwd() + '/tests/**/*-spec.js'],
     capabilities: {
         browserA: {
             desiredCapabilities: {

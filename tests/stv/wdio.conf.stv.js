@@ -2,7 +2,7 @@ var exec = require('child_process').exec;
 
 exports.config = {
     updateJob: false, // will get overwritten
-    specs : ['./tests/**/*-spec.js'],
+    specs : ['./*-spec.js'],
     capabilities: {
         browserA: {
             desiredCapabilities: {
@@ -29,9 +29,12 @@ exports.config = {
     },
     after: function() {
        // do something
-
+        exec('pkill java');
     },
     onComplete : function () {
+        exec('pkill java');
+    },
+    afterSuite: function () {
         exec('pkill java');
     }
 }
