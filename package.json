@@ -17,13 +17,14 @@
   },
   "homepage": "https://github.com/joe-glasgow/selenium-webdriverio#readme",
   "devDependencies": {
-    "assert": "^1.3.0",
-    "firefox-profile": "^0.3.13",
-    "gulp": "^3.9.1",
-    "gulp-webdriver": "^2.0.1",
-    "selenium-standalone": "^5.1.0",
-    "wdio-mocha-framework": "^0.2.13",
-    "webdriverio": "^4.0.5",
-    "yargs": "^4.7.0"
+    "assert": "*",
+    "firefox-profile": "*",
+    "gulp": "*",
+    "gulp-webdriver": "*",
+    "selenium-standalone": "*",
+    "wdio-mocha-framework": "*",
+    "webdriverio": "4.0.7",
+    "yargs": "*",
+    "mocha": "~2.3.3"
   }
 }
