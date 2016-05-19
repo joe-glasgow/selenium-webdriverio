@@ -1,0 +1,30 @@
+{
+  "name": "selenium-webdriverio",
+  "version": "1.0.0",
+  "description": "base selenium set up with webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp browser-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joe-glasgow/selenium-webdriverio.git"
+  },
+  "author": "Joseph Morrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joe-glasgow/selenium-webdriverio/issues"
+  },
+  "homepage": "https://github.com/joe-glasgow/selenium-webdriverio#readme",
+  "devDependencies": {
+    "assert": "*",
+    "firefox-profile": "*",
+    "gulp": "*",
+    "gulp-webdriver": "*",
+    "selenium-standalone": "*",
+    "wdio-mocha-framework": "*",
+    "webdriverio": "4.0.7",
+    "yargs": "*",
+    "mocha": "~2.3.3"
+  }
+}
